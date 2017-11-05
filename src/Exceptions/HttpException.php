@@ -2,7 +2,7 @@
 
 namespace Kavenegar\Exceptions;
 
-class HttpException extends BaseRuntimeException
+class HttpException extends BaseException
 {
 	public function getName()
     {

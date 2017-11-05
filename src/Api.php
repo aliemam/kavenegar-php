@@ -4,11 +4,8 @@ namespace Kavenegar;
 
 use Kavenegar\Exceptions\ApiException;
 use Kavenegar\Exceptions\HttpException;
-use Kavenegar\Exceptions\RuntimeException;
-use Kavenegar\Enums\ApiLogs ;
-use Kavenegar\Enums\General;
 
-class KavenegarApi
+class Api
 {
     protected $apiKey;
     const APIPATH = "https://api.kavenegar.com/v1/%s/%s/%s.json/";
