@@ -1,5 +1,5 @@
 {
-    "name": "kavenegar/php",
+    "name": "aliemam/kavenegar",
     "type": "library",
     "description": "A PHP wrapper for Kavenegar's API",
     "keywords": ["kavenegar", "sms", "api"],
